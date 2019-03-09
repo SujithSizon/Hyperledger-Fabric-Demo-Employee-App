@@ -17,7 +17,9 @@ A demo application built on hyper ledger fabric to add employees and read them
 12. cd local_dir/fabric-samples/emplist/javscript/frontend
 13. npm install -g @angular/cli
 14. npm install
-15. ng build
+{Spawn Terminal 2 and excute the following command}
+15. ng serve -o
+{Go back to Terminal 1 and excute the following commands}
 16. cd local_dir/fabric-samples/emplist/javscript
 17. node enrollAdmin.js
 18. node registerUser.js
