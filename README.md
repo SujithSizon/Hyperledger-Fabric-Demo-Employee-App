@@ -17,14 +17,14 @@ A demo application built on hyper ledger fabric to add employees and read them
 12. cd local_dir/fabric-samples/emplist/javscript/frontend
 13. npm install -g @angular/cli
 14. npm install
-{Spawn Terminal 2 and excute the following command}
+##### {Spawn Terminal 2 and excute the following command}
 15. ng serve -o
-{Go back to Terminal 1 and excute the following commands}
+##### {Go back to Terminal 1 and excute the following commands}
 16. cd local_dir/fabric-samples/emplist/javscript
 17. node enrollAdmin.js
 18. node registerUser.js
 19. node query.js
-20. open http://localhost:1337/ in your browser and press button to list of all employees
+20. open http://localhost:4200/ in your browser and press button to list of all employees
 21. add more employees using invokeJS and view them using query.js
 
 TODO write POST endpoint for adding employees in node app
