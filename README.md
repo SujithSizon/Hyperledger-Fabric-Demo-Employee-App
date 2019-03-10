@@ -14,7 +14,7 @@ A demo application built on hyper ledger fabric to add employees and read them
 9. sudo ./startFabric.sh javascript
 10. cd local_dir/fabric-samples/emplist/javscript
 11. npm install
-12. cd local_dir/fabric-samples/emplist/javscript/frontend
+12. cd local_dir/fabric-samples/emplist/javscript/angularApp
 13. npm install -g @angular/cli
 14. npm install
 ##### {Spawn Terminal 2 and excute the following command}
