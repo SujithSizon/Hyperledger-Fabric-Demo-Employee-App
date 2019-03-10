@@ -69,13 +69,13 @@ async function queryAllEmps() {
     }
 }
 
-// app.use(express.static(path.join(__dirname, 'frontend/dist')));
+// app.use(express.static(path.join(__dirname, 'angularApp/dist')));
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
+//   res.sendFile(path.join(__dirname, 'angularApp/dist/index.html'));
 // });
 
 app.get('/api/queryAllEmps', (req, res) => {
