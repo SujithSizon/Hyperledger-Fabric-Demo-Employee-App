@@ -30,12 +30,11 @@ A demo application built on hyper ledger fabric to add employees and read them
 
 ## Endpoints
 > GET /api/getAllEmps
+![alt text](https://raw.githubusercontent.com/SujithSizon/Fabric-Demo-Employee-App/master/080f0425-28db-4828-9bf7-05a7e523e64e.jpg =100x20)
 
 
 ## Future Work
 > GET /api/getEmp/{empid}
-![alt text](https://raw.githubusercontent.com/SujithSizon/Fabric-Demo-Employee-App/master/080f0425-28db-4828-9bf7-05a7e523e64e.jpg)
-
 > POST /api/addEmp
 
 
