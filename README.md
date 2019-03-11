@@ -27,7 +27,13 @@ A demo application built on hyper ledger fabric to add employees and read them
 20. open http://localhost:4200/ in your browser and press button to list of all employees
 21. add more employees using invokeJS and view them using query.js
 
-TODO write POST endpoint for adding employees in node app
 
+## Endpoints
+> GET /api/getAllEmps
+
+
+## Future Work
+> GET /api/getEmp/{empid}
+> POST /api/addEmp
 
 
