@@ -2,6 +2,12 @@
 A demo application built on hyper ledger fabric to add employees and read them
 This demo app has been built on top of fabcar demo app from Hyperledger fabric
 
+## Gist
+1. [chaincode/emplist](https://github.com/SujithSizon/Fabric-Demo-Employee-App/tree/master/chaincode/emplist) contains the updated the chaincode that will be used in this application.
+2. Line 20, 48, 49 and 51 [startFabric.sh](https://github.com/SujithSizon/Fabric-Demo-Employee-App/blob/master/emplist/startFabric.sh) have been edited to include the new chaincode.
+3. [query.js](https://github.com/SujithSizon/Fabric-Demo-Employee-App/blob/master/emplist/javascript/query.js) contains api definitions for querying the blockchain.
+4. [angularApp/](https://github.com/SujithSizon/Fabric-Demo-Employee-App/tree/master/emplist/javascript/angularApp) contains the code for frontend application which consumes the above api endpoints.
+
 ## Setup
 1. Copy the folder Fabric-Demo-Employee-App/chaincode/emplist (the chaincode) and place it inside your local_dir/fabric-samples/chaincode/
 2. Copy the folder Fabric-Demo-Employee-App/emplist (the application) and place it inside local_dir/fabric-samples/
