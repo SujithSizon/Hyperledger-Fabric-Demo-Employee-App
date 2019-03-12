@@ -1,6 +1,6 @@
 # Fabric-Demo-Employee-App
 A demo application built on hyper ledger fabric to add employees and read them
-
+This demo app has been built on top of fabcar demo app from Hyperledger fabric
 
 ## Setup
 1. Copy the folder Fabric-Demo-Employee-App/chaincode/emplist (the chaincode) and place it inside your local_dir/fabric-samples/chaincode/
